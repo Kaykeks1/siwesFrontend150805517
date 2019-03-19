@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row [class*='col-'] {
+     // padding-right: 16px;
+     
+    div {
+        width: auto;
+        // padding-right: 16px;
+    }
+    .member-input {
+        width: auto;
+    }
+
+    .assign-input {
+        width: 95.5%;
+    }
+
+    .book-input {
+        width: 95%;
+    }
+
+    .publisher-input {
+        width: 95%;
+        // margin-right: 16px;
+    }
+}
+
+.col-1 {
+    position: relative;
+    float: left;
+    width: 1%;
+}
+
+.col-3 {
+    position: relative;
+    float: left;
+    width: 3%;
+}
+
+.col-5 {
+    position: relative;
+    float: left;
+    width: 5%;
+}
+
+.col-10 {
+    position: relative;
+    float: left;
+    width: 10%;
+}
+
+.col-11 {
+    position: relative;
+    float: left;
+    width: 11%;
+}
+
+.col-15 {
+    position: relative;
+    float: left;
+    width: 15%;
+}
+
+.col-20 {
+    position: relative;
+    float: left;
+    width: 20%;
+}
+
+.col-25 {
+    position: relative;
+    float: left;
+    width: 25%;
+    // padding: 0.5% 0.5%;
+}
+
+.col-30 {
+    position: relative;
+    float: left;
+    width: 30%;
+}
+
+.col-33 {
+    position: relative;
+    float: left;
+    width: 33.33%;
+}
+
+.col-35 {
+    position: relative;
+    float: left;
+    width: 35%;
+}
+
+.col-40 {
+    position: relative;
+    float: left;
+    width: 40%;
+}
+
+.col-45 {
+    position: relative;
+    float: left;
+    width: 45%;
+}
+
+.col-50 {
+    position: relative;
+    float: left;
+    width: 50%;
+    // padding: 0.5% 0.5%;
+}
+
+.col-60 {
+    position: relative;
+    float: left;
+    width: 60%;
+}
+
+.col-70 {
+    position: relative;
+    float: left;
+    width: 70%;
+}
+
+
+.col-75 {
+    position: relative;
+    float: left;
+    width: 75%;
+}
+
+.col-80 {
+    position: relative;
+    float: left;
+    width: 80%;
+}
+
+.col-90 {
+    position: relative;
+    float: left;
+    width: 90%;
+}
+
+.col-95 {
+  position: relative;
+  float: left;
+  width: 95%;
+}
+
+.col-100 {
+    position: relative;
+    width: 100%;
+}

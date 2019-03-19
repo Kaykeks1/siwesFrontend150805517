@@ -1,0 +1,32 @@
+.dashboard {
+    font-family: 'Roboto', sans-serif;
+}
+.side-bar{
+    // position: absolute;
+    // width: 19%;
+    // padding-left: 0px;
+    // padding-right: 40px;
+    // // border: 1px black solid;
+    // height: 100%;
+    // background-color: cornflowerblue !important;
+}
+.main-content {
+    // margin-top: -4px;
+    top: 0;
+    position: absolute;
+    margin-left: 19%;
+    width: 81%;
+    // border: 1px black solid;
+    height: 100%;
+    background-color: #fff;
+    transition: margin-left 0.3s ease;
+}
+
+.content {
+    position: relative;
+    height: 200vh;
+    width: 100%;
+    padding-top: 0;
+    // overflow: auto;
+    background-color: #F5F5F5;//rgb(238, 238, 238);
+}

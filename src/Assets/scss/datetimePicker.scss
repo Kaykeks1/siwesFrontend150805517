@@ -1,0 +1,71 @@
+.datepicker-container {
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.datepicker-label {
+    color: #6b6868;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+.datepicker-input {
+    width: 100%;
+    box-shadow: none;
+    border-radius: 1px;
+    padding: 12px;
+    border: 1px solid #eee;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 20px;
+    vertical-align: middle;
+
+    &::-webkit-input-placeholder {
+        color: #c5c5c5;
+    }
+
+    &::-moz-placeholder {
+        color: #c5c5c5;
+    }
+
+    &:-moz-placeholder {
+        color: #c5c5c5;
+    }
+
+    &:-ms-input-placeholder {
+        color: #c5c5c5;
+    }
+
+    &:hover {
+        border-color: #b5b5b5;
+    }
+
+    &:hover::-webkit-input-placeholder {
+        color: #b5b5b5;
+    }
+
+    &:hover::-moz-placeholder {
+        color: #b5b5b5;
+    }
+
+    &:hover:-moz-placeholder {
+        color: #b5b5b5;
+    }
+
+    &:hover:-ms-input-placeholder {
+        color: #b5b5b5;
+    }
+
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border-color: #4990e2;
+    }
+}
+
+.rdtPicker {
+    width: 100%;
+}

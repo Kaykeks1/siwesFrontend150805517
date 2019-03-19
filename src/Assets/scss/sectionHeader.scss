@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+    width: auto;
+    height: 80px;
+    padding: 20px 30px;
+    margin-top: 1px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(193, 193, 193, 0.35);
+}
+
+.header .btn {
+  float: right;
+}
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}

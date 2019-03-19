@@ -1,0 +1,157 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    line-height: 1.42857143;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+    background: #ffffff;
+    color: #6b6868;
+    padding: 10px 16px;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.btn:hover {
+    background: #efefef;
+}
+
+.btn:focus {
+    outline: none;
+    background: #efefef;
+}
+
+.btn.x-small {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.btn.small {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.btn.large {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333;
+}
+
+.btn.block {
+    width: 100%;
+}
+
+.btn.uppercase {
+    text-transform: uppercase;
+}
+
+.btn.capitalize {
+    text-transform: capitalize;
+}
+
+.btn.primary {
+    color: #ffffff;
+    background: #1248e2;
+    border: 1px solid #1248e2;
+    background-image: none;
+}
+
+.btn.primary:hover {
+    background: rgba(18,72,226,0.9);
+    border: 1px solid rgba(18,72,226,0.9);
+}
+
+.btn.primary:focus {
+    outline: none;
+    background: rgba(18,72,226,0.9);
+}
+
+.btn.primary:disabled {
+    color: #ffffff;
+    background: rgba(18,72,226,0.4);
+    border: none;
+}
+
+.btn.green {
+    color: #ffffff;
+    background: #15d865;
+    border: 1px solid #15d865;
+    background-image: none;
+}
+
+.btn.green:hover {
+    background: #14ca5e;
+}
+
+.btn.green:focus {
+    outline: none;
+    background: #14ca5e;
+}
+
+.btn.green:disabled {
+    color: #ffffff;
+    background: #74dfa0;
+    border: 1px solid #74dfa0;
+}
+
+.btn.green .float-right {
+    float: right;
+    line-height: inherit;
+}
+
+.btn.red {
+  color: #ffffff;
+  background: #ce2730;
+  border: 1px solid #ce2730;
+  background-image: none;
+  &:hover {
+    background: #ce2730;
+  }
+
+  &:focus {
+    outline: none;
+    background: #ce2730;
+  }
+
+  &:disabled {
+    color: #ffffff;
+    background: #e9424b;
+    border: 1px solid #e9424b;
+  }
+}
+.btn.red .float-right {
+  float: right;
+  line-height: inherit;
+}
+
+
+.btn.link {
+    padding: 0;
+    color: #6b6868;
+    background: transparent;
+    border: 0;
+}
+
+.btn.link:hover {
+    color: #6b6868;
+}
+
+.btn.link:focus {
+    outline: none;
+    color: #6b6868;
+}
+
+.btn .float-right {
+    float: right;
+    line-height: inherit;
+    margin-left: .3em;
+}
